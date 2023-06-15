@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  /* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body {
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li{
+
+    position: relative;
+    left: 100px;
+}
+
+.navbar-nav li a {
+
+    font-weight: 400;
+    margin: 0px 25px;
+    border: 0px solid blue;
+}
+
+.navbar-nav a:hover {
+
+    border-bottom: 2px solid blue;
+    color: black;
+}
+
+.nav-btn {
+
+    background-color: #8E5CCF;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+
+
+.head {
+    margin-top: 100px;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.intro {
+
+    font-size: 16px;
+    color: #848484;
+}
+
+.follow-head {
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.socialconnect {
+
+    margin: 0px 25px;
+}
+
+.lead-gen {
+
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.Market-Research {
+
+    margin-top: 70px;
+    margin-left: 450px;
+
+}
+
+.Email-Valid {
+
+    margin-top: -70px;
+    margin-left: -100px;
+}
+
+.service-btn {
+
+    background-color: #8E5CCF;
+    padding: 10px;
+    width: 180px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.card {
+
+    border-radius: 50px;
+    transform: scale(0.9);
+    transition: .5s ease-in;
+}
+.card-text {
+
+    font-size: 16px;
+}
+.card:hover {
+
+    box-shadow: 0px 8px 15px rgb(151, 151, 151);
+    background-color: #8E5CCF;
+    transform: scale(1);
+    color: white;
+    font-size: 14px;
+}
+
+#Contact {
+
+    box-shadow: 0px 8px 12px rgb(151, 151, 151);
+}
+
+.bg-primary {
+
+    background-color: black!important;
+    
+
+}
+.form-control{
+
+        border-radius: 2px;
+        border: 0px solid black;
+        color: black;
+        box-shadow: none;
+        height: 36px;
+        background: #fff;
+}
+
+.contactform .form-control {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.form-control:focus .form-control:active {
+
+    border-color: blue!important;
+}
+
+#Contact i {
+
+    height: 50px;
+    width: 50px;
+}
